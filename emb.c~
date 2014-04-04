@@ -5,6 +5,7 @@
 #include<unistd.h>
 #include<sys/types.h>
 #include"tamaki.h"
+
 #define PROCESS 3         // number of process
 #define WAIT 5000000    // set wait timer[s]
 const unsigned long tamaki_size = sizeof( tamaki_data ) / sizeof( tamaki_data[0] );

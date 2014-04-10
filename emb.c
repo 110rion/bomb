@@ -4,7 +4,7 @@
 #include<stdlib.h>
 #include<unistd.h>
 #include<sys/types.h>
-#include"tamaki.h"
+#include"tamaki.h"          // picture header 
 #define PROCESS 3         // number of process
 #define WAIT 5000000    // set wait timer[s]
 const unsigned long tamaki_size = sizeof( tamaki_data ) / sizeof( tamaki_data[0] );
@@ -14,7 +14,7 @@ int main(void)
   char fname[100];
   char sname[100];
   int pid[PROCESS];  
-  int i, j;
+  int i;
   FILE *fp;
     
   for( i = 0; i < PROCESS ; i++){
